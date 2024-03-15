@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleInformation name="widgets.brease.Ellipse" xmlns="http://www.br-automation.com/iat2014/widgetStyles"
+									xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+									>
+	<StyleProperties >
+    <StyleProperty name="width" type="Size" not_styleable="true" default="100">
+      <StyleElement attribute="@include elemWidth($value)"></StyleElement>
+      <Description>outer width of widget</Description>
+    </StyleProperty>
+    <StyleProperty name="height" type="Size" not_styleable="true" default="100">
+      <StyleElement attribute="@include elemHeight($value)"></StyleElement>
+      <Description>outer height of widget</Description>
+    </StyleProperty>
+    <StyleProperty name="cornerRadius" type="PixelVal" not_styleable="true" hide="true">
+      <Description>Sets the radius of the widget rounded corners. For further information, please check its type</Description>
+    </StyleProperty>
+    <StyleProperty name="minWidth" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="3">
+      <StyleElement attribute="@include elemMinWidth($value)"/>
+      <Description>minimum outer width of widget</Description>
+    </StyleProperty>
+    <StyleProperty name="maxWidth" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="4">
+      <StyleElement attribute="@include elemMaxWidth($value)"/>
+      <Description>maximum outer width of widget</Description>
+    </StyleProperty>
+    <StyleProperty name="minHeight" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="5">
+      <StyleElement attribute="@include elemMinHeight($value)"/>
+      <Description>minimum outer height of widget</Description>
+    </StyleProperty>
+    <StyleProperty name="maxHeight" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="6">
+      <StyleElement attribute="@include elemMaxHeight($value)"/>
+      <Description>maximum outer height of widget</Description>
+    </StyleProperty>
+  </StyleProperties>
+</StyleInformation>
+	
+	
+

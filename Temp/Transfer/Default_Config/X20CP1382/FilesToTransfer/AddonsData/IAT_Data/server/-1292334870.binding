@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+
+
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletConveyor1Fault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton8" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletConveyor1Fault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton8" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMSlideRailFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton6" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMSlideRailFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton6" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMVacuumFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMVacuumFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorTurn1Fault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorTurn1Fault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMFeederPusherFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMFeederPusherFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMTurnpusherFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton11" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMTurnpusherFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton11" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorEndFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton12" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorEndFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton12" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMCarriageFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton13" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMCarriageFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton13" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMGantryCraneFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton16" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMGantryCraneFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton16" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMBoxCraneFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton17" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMBoxCraneFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton17" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletLifterFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton18" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletLifterFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton18" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletConveyor2Fault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton19" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletConveyor2Fault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton19" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorTurn1Fault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton25" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorTurn1Fault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton25" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorEndFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton30" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorEndFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton30" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMTurnpusherFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton29" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMTurnpusherFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton29" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMCarriageFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton31" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMCarriageFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton31" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMVacuumFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton32" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMVacuumFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton32" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMBoxCraneFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton33" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMBoxCraneFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton33" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMSlideRailFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton26" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMSlideRailFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton26" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletConveyor1Fault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton48" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletConveyor1Fault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton48" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletConveyor2Fault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton49" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletConveyor2Fault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton49" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletLifterFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton50" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletLifterFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton50" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+
+		<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:PalletOver" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton9" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:PalletOver" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton9" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:CartboardOver" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton20" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:CartboardOver" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton20" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:OnPhaseStop" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton36" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:OnPhaseStop" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton36" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ImmediateStop" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton35" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:ImmediateStop" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton35" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:EmergencyStop" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton34" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:EmergencyStop" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton34" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+
+
+		
+
+	
+		
+		
+		
+
+		<Content id="content_0"><Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::Signal_mng:EmergencyStopButton" attribute="value" />
+			<Target xsi:type="brease" refId="content_0_ToggleButton40" attribute="value" />
+		</Binding><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::Signal_mng:EmergencyStopButton" attribute="editable" />
+			<Target xsi:type="brease" refId="content_0_ToggleButton40" attribute="editable::value" />
+		</Binding></Content>
+			
+			
+		
+		<Content id="content_0"><Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::Signal_mng:OnPhaseStopButton" attribute="value" />
+			<Target xsi:type="brease" refId="content_0_ToggleButton41" attribute="value" />
+		</Binding><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::Signal_mng:OnPhaseStopButton" attribute="editable" />
+			<Target xsi:type="brease" refId="content_0_ToggleButton41" attribute="editable::value" />
+		</Binding></Content>
+			
+			
+		
+	<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.Reset" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton10" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.Reset" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton10" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.KeyReset" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton27" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.KeyReset" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton27" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+		
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMFeederPusherFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton24" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMFeederPusherFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton24" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:PalletCounter" attribute="value" />
+<Target xsi:type="brease" refId="content_0_NumericInput1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:PalletCounter" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_NumericInput1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:CraneCartboardCounter" attribute="value" />
+<Target xsi:type="brease" refId="content_0_NumericInput2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:CraneCartboardCounter" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_NumericInput2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:StartMachine" attribute="value" />
+<Target xsi:type="brease" refId="content_0_PushButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:StartMachine" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_PushButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMGantryCraneFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton47" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMGantryCraneFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton47" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorIFFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorIFFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletForkFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton7" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletForkFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton7" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPusherZFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton14" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPusherZFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton14" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPusherXFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton15" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPusherXFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton15" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorIFFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton23" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMConveyorIFFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton23" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletForkFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton37" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPalletForkFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton37" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPusherZFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton45" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPusherZFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton45" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPusherXFault" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton46" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:SIMPusherXFault" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton46" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:OnePalletLeft" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton22" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:OnePalletLeft" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton22" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:OutOfMaterial" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton38" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:OutOfMaterial" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton38" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:OneCartboardLeft" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton21" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:OneCartboardLeft" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton21" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.Firstslot" attribute="value" />
+<Target xsi:type="brease" refId="content_0_TextOutput1" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.Secondslot" attribute="value" />
+<Target xsi:type="brease" refId="content_0_TextOutput2" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.Thirdslot" attribute="value" />
+<Target xsi:type="brease" refId="content_0_TextOutput3" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.Fourthslot" attribute="value" />
+<Target xsi:type="brease" refId="content_0_TextOutput4" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:StartMachine" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton39" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:StartMachine" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton39" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::TaskManage:PalletOutput" attribute="value" />
+<Target xsi:type="brease" refId="content_0_NumericOutput1" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.Fifthslot" attribute="value" />
+<Target xsi:type="brease" refId="content_0_TextOutput5" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.AuxResetEnable" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton28" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.AuxResetEnable" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton28" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.ResetEnable" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton42" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_mng:SignalManagement.ResetEnable" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton42" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

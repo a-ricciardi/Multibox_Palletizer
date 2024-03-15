@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/TaskManager/Variables.var
+$(AS_PROJECT_PATH)/Logical/TaskManager/Types.typ

@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/TaskManager/Variables.var
+$(AS_PROJECT_PATH)/Physical/Default_Config/X20CP1382/Cpu.sw
+$(AS_PROJECT_PATH)/Logical/PalletHandler/Variables.var
+$(AS_PROJECT_PATH)/Logical/SignalManager/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/SignalMng/SignalMng.fun

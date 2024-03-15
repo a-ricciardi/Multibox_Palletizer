@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericAx/GenericAx.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericAx/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericAx/Constants.var

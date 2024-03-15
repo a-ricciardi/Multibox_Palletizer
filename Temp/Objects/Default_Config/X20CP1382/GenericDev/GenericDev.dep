@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericDev/GenericDev.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericDev/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericDev/Constants.var

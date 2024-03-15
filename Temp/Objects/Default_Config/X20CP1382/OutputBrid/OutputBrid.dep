@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/MNG_Package.var
+$(AS_PROJECT_PATH)/Logical/MNG_Package.typ

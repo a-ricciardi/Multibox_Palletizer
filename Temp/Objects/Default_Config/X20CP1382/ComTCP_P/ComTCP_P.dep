@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIecCon/AsIecCon.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTCP/AsTCP.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun
+$(AS_PROJECT_PATH)/Logical/MNG_Package.var
+$(AS_PROJECT_PATH)/Logical/MNG_Package.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/ComTCP/ComTCP_P/Variables.var

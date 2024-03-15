@@ -1,0 +1,21 @@
+Wed Jul 19 11:10:07 2023
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Wed Jul 19 11:10:07 2023
+No ARsim registration found!
+
+Wed Jul 19 11:10:07 2023
+InstanceName: 01d9ba20cfc05af0
+
+Wed Jul 19 11:10:07 2023
+WorkingDirectory: D:\Downloads\ASDP Exam - Group 4B\Palletizer\Temp\Simulation\Default_Config\X20CP1382\
+
+Wed Jul 19 11:10:07 2023
+COMMAND_COLDSTART
+
+Wed Jul 19 11:10:13 2023
+Version: A4.83
+
+Wed Jul 19 11:10:15 2023
+COMMAND_TERMINATE
+

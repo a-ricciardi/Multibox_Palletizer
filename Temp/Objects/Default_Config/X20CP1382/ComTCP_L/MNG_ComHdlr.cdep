@@ -1,0 +1,16 @@
+$(AS_CPU_PATH)/comtcp_l/mng_comhdlr.cpp.o:
+$(AS_PROJECT_PATH)/logical/libraries/comtcp/comtcp_l/mng_comhdlr.cpp
+$(AS_PROJECT_PATH)/logical/libraries/comtcp/comtcp_l/mng_comhdlr.hpp
+$(AS_PROJECT_PATH)/logical/libraries/comtcp/comtcp_l/mng_internaltyp.hpp
+$(AS_TEMP_PATH)/includes/asieccon.h
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plc.h
+$(AS_TEMP_PATH)/includes/asbrstr.h
+$(AS_PROJECT_PATH)/logical/libraries/comtcp/comtcp_l/mng_global.hpp
+$(AS_TEMP_PATH)/includes/mng_globaltyp.h
+$(AS_TEMP_PATH)/includes/astcp.h
+$(AS_TEMP_PATH)/includes/runtime.h
+$(AS_TEMP_PATH)/includes/standard.h
+$(AS_TEMP_PATH)/includes/astime.h
+$(AS_PROJECT_PATH)/logical/libraries/comtcp/comtcp_l/mng_cpymsgtoinp.cpp
+$(AS_PROJECT_PATH)/logical/libraries/comtcp/comtcp_l/mng_cpyouttomsg.cpp

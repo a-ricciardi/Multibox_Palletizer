@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericAx/GenericAx.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericAx/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericDev/GenericDev.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericDev/Types.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/CraneHandler/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericAx/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/GenericDev/Constants.var
+$(AS_PROJECT_PATH)/Logical/CraneHandler/Types.typ

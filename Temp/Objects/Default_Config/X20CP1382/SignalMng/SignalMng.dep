@@ -1,0 +1,2 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/SignalMng/SignalMng.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/SignalMng/Constants.var
