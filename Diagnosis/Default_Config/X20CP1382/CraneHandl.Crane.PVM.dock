@@ -1,0 +1,5 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=CraneHandl 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=127 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                   State                                     DINT    0 "                                                              15"    0    4    1   10    1    0 e,1,C_St
+

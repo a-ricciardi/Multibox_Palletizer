@@ -1,0 +1,6 @@
+{
+  global:
+    GenericDevice;
+  local:
+    *;
+ };

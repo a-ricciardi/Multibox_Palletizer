@@ -1,0 +1,27 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=TaskManage 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=144 Type=0 Scope=0 Force=0 Index=22 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           EmergencyStop                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                           ImmediateStop                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                             StartFeeder                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                              StartCrane                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                             StartPallet                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          Feeder_Restart                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                           Crane_Restart                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          Pallet_Restart                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               2"    0    4    1   10    1    0 e,1,M_Em
+
+                             FeederReady                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                              CraneReady                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                            StartMachine                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                           EnableMachine                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          RestartRequest                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                      OnPhaseStopRequest                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                             OnPhaseStop                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                             StopRequest                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                    Feeder_EmergencyStop                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                     Crane_EmergencyStop                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                    Pallet_EmergencyStop                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                      Feeder_OnPhaseStop                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                       Crane_OnPhaseStop                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                      Pallet_OnPhaseStop                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         

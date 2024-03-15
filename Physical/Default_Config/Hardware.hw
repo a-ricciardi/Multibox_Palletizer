@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.10.2.37 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="X20CP1382" Type="X20CP1382" Version="1.14.0.0">
+    <Module Name="X1" Type="X1" Virtual="true" Version="1.14.0.0">
+      <Connection Connector="SS1" TargetModule="X20TB1F" TargetConnector="SS" />
+      <Connection Connector="SL" TargetModule="X20CP1382" TargetConnector="X1" />
+    </Module>
+    <Module Name="X2" Type="X2" Virtual="true" Version="1.14.0.0">
+      <Connection Connector="SS1" TargetModule="X20TB1F1" TargetConnector="SS" />
+      <Connection Connector="SL" TargetModule="X20CP1382" TargetConnector="X2" />
+    </Module>
+    <Module Name="X3" Type="X3" Virtual="true" Version="1.14.0.0">
+      <Connection Connector="SS1" TargetModule="X20TB1F2" TargetConnector="SS" />
+      <Connection Connector="SL" TargetModule="X20CP1382" TargetConnector="X3" />
+    </Module>
+    <Connection Connector="X1" TargetModule="X1" TargetConnector="SL" />
+    <Connection Connector="X2" TargetModule="X2" TargetConnector="SL" />
+    <Connection Connector="X3" TargetModule="X3" TargetConnector="SL" />
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Group ID="Vnc1" />
+      <Parameter ID="VncKeyMappingFile1" Value="" />
+      <Parameter ID="VncRefreshRate1" Value="100" />
+    </Connector>
+    <Connector Name="IF3">
+      <Parameter ID="DNAConfiguration" Value="manual" />
+      <Parameter ID="CycleTime" Value="2000" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="Palletizer_Default_Config" />
+    <Parameter ID="Simulation" Value="1" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="Cyclic2Tolerance" Value="0" />
+    <Parameter ID="TimeZone" Value="140" />
+    <Parameter ID="ActivateOpcUa" Value="1" />
+    <Parameter ID="OpcUaInformationModels_PV_Version" Value="1" />
+  </Module>
+  <Module Name="X20TB1F" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F1" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F2" Type="X20TB1F" Version="1.0.0.0" />
+</Hardware>

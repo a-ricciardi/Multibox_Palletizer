@@ -1,0 +1,54 @@
+VAR
+	State : FeederState := F_WaitStart;
+END_VAR
+(*Conveyor_if*)
+VAR
+	Conveyor_if : GenericDevice;
+	Conveyor_if_EnableTime : INT := 20;
+	Conveyor_if_DisableTime : INT := 20;
+END_VAR
+(*Conveyor_turn1*)
+VAR
+	Conveyor_turn1 : GenericDevice;
+	Conveyor_turn1_EnableTime : INT := 20;
+	Conveyor_turn1_DisableTime : INT := 20;
+END_VAR
+(*Pusher*)
+VAR
+	Pusher : GenericDevice;
+	PusherEnableTime : INT := 60;
+	PusherDisableTime : INT := 60;
+END_VAR
+(*Conveyor_end*)
+VAR
+	Conveyor_end : GenericDevice;
+	Conveyor_end_EnableTime : INT := 20;
+	Conveyor_end_DisableTime : INT := 20;
+END_VAR
+(*Turnpusher*)
+VAR
+	Turnpusher : GenericDevice;
+	TurnpusherEnableTime : INT := 60;
+	TurnpusherDisableTime : INT := 60;
+END_VAR
+(*Carriage*)
+VAR
+	Carriage : GenericAxis;
+	CarriagePositionReached : BOOL;
+	CarriageSetPoint : REAL;
+	MainLine : BOOL := FALSE;
+END_VAR
+(*Faults*)
+VAR
+	OldState : FeederState;
+	GD_StatusRequest : ARRAY[0..9] OF BOOL := [10(FALSE)];
+	OldPosition : REAL;
+	i : INT := 0;
+	EndLayer : BOOL := FALSE;
+	Enable_Disable_Counter : INT;
+	SensorReached : ARRAY[0..1] OF BOOL := [2(FALSE)];
+	CarriagePositionRestored : BOOL := FALSE;
+	CheckPosition : BOOL := FALSE;
+	SensorMemory : ARRAY[0..1] OF BOOL := [2(FALSE)];
+	StopRequest : BOOL := FALSE;
+END_VAR

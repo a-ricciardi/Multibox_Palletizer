@@ -1,0 +1,22 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=MAIN_ctrl 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=196 Type=14 Scope=0 Force=0 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           START_MACHINE                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                   State                                     DINT    0 "                                                               2"    0    4    1   10    1    0 e,0,Wait
+
+                                OldState                                     DINT    0 "                                                               9"    0    4    1   10    1    0 e,0,Wait
+
+                           EmergencyStop                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                           ImmediateStop                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                             OnPhaseStop                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                   FEEDER_EMERGENCY_STOP                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                    CRANE_EMERGENCY_STOP                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                   PALLET_EMERGENCY_STOP                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                    FEEDER_ON_PHASE_STOP                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                     CRANE_ON_PHASE_STOP                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                    PALLET_ON_PHASE_STOP                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                         RESTART_REQUEST                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                      OnPhaseStopRequest                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                   FEEDER_IMMEDIATE_STOP                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                    CRANE_IMMEDIATE_STOP                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                   PALLET_IMMEDIATE_STOP                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         

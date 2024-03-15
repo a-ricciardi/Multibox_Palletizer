@@ -1,0 +1,9 @@
+VAR
+	State : Main_State := M_WaitStart;
+	RestartRequest : BOOL := FALSE;
+	OldState : Main_State;
+	ImmediateStopRequest : BOOL := FALSE;
+	OnPhaseStopRequest : BOOL := FALSE;
+	StopRequest : BOOL := FALSE;
+	PalletOutput : INT := 0;
+END_VAR

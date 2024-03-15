@@ -1,0 +1,9 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Signal_mng 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=155 Type=0 Scope=0 Force=0 Index=5 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                          PALLET_COUNTER                                      INT    0 "                                                               4"    0    3    1   10    0    0         
+                 CRANE_CARTBOARD_COUNTER                                      INT    0 "                                                              27"    0    3    1   10    0    0         
+                        PalletAlmostOver                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                             OutOfPallet                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                              PalletOver                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                               AUX_RESET                                     DINT    0 "                                                             512"    0    4    1   10    1    0         

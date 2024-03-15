@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="7" ArVersion="A4.83">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="SIMBoxCraneFault" />
+        <Variable Name="SIMCarriageFault" />
+        <Variable Name="SIMCartboardFault" />
+        <Variable Name="SIMConveyorEndFault" />
+        <Variable Name="SIMConveyorTurn1Fault" />
+        <Variable Name="SIMFeederPusherFault" />
+        <Variable Name="SIMGantryCraneFault" />
+        <Variable Name="SIMPalletConveyor1Fault" />
+        <Variable Name="SIMPalletConveyor2Fault" />
+        <Variable Name="SIMPalletLifterFault" />
+        <Variable Name="SIMSlideRailFault" />
+        <Variable Name="SIMTurnpusherFault" />
+        <Variable Name="SIMVacuumFault" />
+        <Variable Name="EmergencyStop" />
+        <Variable Name="ImmediateStop" />
+        <Variable Name="OnPhaseStop" />
+        <Variable Name="OutOfCartboard" />
+        <Variable Name="OutOfPallet" />
+        <Variable Name="PalletCounter" />
+        <Variable Name="CraneCartboardCounter" />
+        <Variable Name="StartMachine" />
+        <Variable Name="SIMConveyorIFFault" />
+        <Variable Name="SIMPalletForkFault" />
+        <Variable Name="SIMPusherZFault" />
+        <Variable Name="SIMPusherXFault" />
+        <Variable Name="OutOfMaterial" />
+      </GlobalVariables>
+      <Task Name="Signal_mng">
+        <Variable Name="SignalManagement">
+          <Variable Name="Signals" />
+          <Variable Name="AuxResetEnable" />
+          <Variable Name="ResetEnable" />
+          <Variable Name="KeyReset" />
+          <Variable Name="Reset" />
+          <Variable Name="Firstslot" />
+          <Variable Name="Secondslot" />
+          <Variable Name="Thirdslot" />
+          <Variable Name="Fourthslot" />
+          <Variable Name="Fifthslot" />
+        </Variable>
+        <Variable Name="PalletOver" />
+        <Variable Name="CartboardOver" />
+        <Variable Name="PalletAlmostOver" />
+        <Variable Name="CartboardAlmostOver" />
+        <Variable Name="EmergencyStopButton" />
+        <Variable Name="OnPhaseStopButton" />
+        <Variable Name="OneCartboardLeft" />
+        <Variable Name="OnePalletLeft" />
+      </Task>
+      <Task Name="PalletHand">
+        <Variable Name="State" />
+      </Task>
+      <Task Name="TaskManage">
+        <Variable Name="ImmediateStopRequest" />
+        <Variable Name="OldState" />
+        <Variable Name="OnPhaseStopRequest" />
+        <Variable Name="RestartRequest" />
+        <Variable Name="State" />
+        <Variable Name="StopRequest" />
+        <Variable Name="PalletOutput" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

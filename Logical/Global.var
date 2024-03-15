@@ -1,0 +1,163 @@
+(*Sensors*)
+VAR
+	LightBarrier1 : BOOL;
+	LightBarrier2 : BOOL;
+	LaserSensor1 : BOOL;
+	LaserSensor2 : BOOL;
+END_VAR
+(*Simulation variables*)
+VAR
+	Pusher_BKW : BOOL;
+	Pusher_FWD : BOOL;
+	Turnpusher_FWD : BOOL;
+	Turnpusher_BWD : BOOL;
+	Crane_Vacuum : BOOL;
+	Pallet_ForkFB : BOOL;
+	Feeder_ConveyorIF_Fwd : BOOL;
+	Feeder_ConveyorTurn1_Fwd : BOOL;
+	Feeder_PusherFwd : BOOL;
+	Feeder_ConveyorEndFwd : BOOL;
+	Feeder_TurnpusherFwd : BOOL;
+	Feeder_TurnpusherBwd : BOOL;
+	Crane_VacuumGrip : BOOL;
+	Crane_CartboardTrig : BOOL;
+	Crane_SlideRail_EN : BOOL;
+	Crane_PusherZ_EN : BOOL;
+	Crane_PusherX_EN : BOOL;
+	Pallet_Fork_EN : BOOL;
+	Pallet_Conveyor1_Fwd : BOOL;
+	Feeder_Carriage_Axis : REAL;
+	Feeder_Carriage_Reached : BOOL;
+	Crane_Box_Axis : REAL;
+	Crane_Gantry_Axis : REAL;
+	Pallet_Lifter_Axis : REAL;
+	Crane_Box_Axis_TgtPos : REAL;
+	Feeder_Carriage_Axis_TgtPos : REAL;
+	Crane_Gantry_Axis_TgtPos : REAL;
+	Pallet_Conveyor2_ActVel : REAL;
+	Pallet_Lifter_Axis_TgtPos : REAL;
+END_VAR
+(*Variables*)
+VAR
+	OperationType : INT := 0;
+END_VAR
+(*Faults*)
+VAR
+	OutOfPallet : BOOL;
+	OutOfCartboard : BOOL;
+	EmergencyStop : BOOL;
+	Feeder_EmergencyStop : BOOL := FALSE;
+	Crane_EmergencyStop : BOOL := FALSE;
+	Pallet_EmergencyStop : BOOL := FALSE;
+	Feeder_ResetConfig : BOOL := FALSE;
+	Crane_ResetConfig : BOOL := FALSE;
+	Pallet_ResetConfig : BOOL := FALSE;
+	EnableMachine : BOOL := FALSE;
+	Feeder_ImmediateStop : BOOL;
+	Crane_ImmediateStop : BOOL;
+	Pallet_ImmediateStop : BOOL;
+	Feeder_Restart : BOOL := FALSE;
+	Crane_Restart : BOOL := FALSE;
+	Pallet_Restart : BOOL := FALSE;
+	Feeder_OnPhaseStop : BOOL := FALSE;
+	Crane_OnPhaseStop : BOOL := FALSE;
+	Pallet_OnPhaseStop : BOOL := FALSE;
+	ImmediateStop : BOOL;
+	OnPhaseStop : BOOL;
+	act_PalletConveyor2Fault : BOOL := FALSE;
+	act_CartboardFault : BOOL := FALSE;
+	act_CarriageFault : BOOL := FALSE;
+	act_GantryCraneFault : BOOL := FALSE;
+	act_BoxCraneFault : BOOL := FALSE;
+	act_PalletForkFault : BOOL := FALSE;
+	act_PalletLifterFault : BOOL := FALSE;
+	act_FeederPusherFault : BOOL := FALSE;
+	act_PusherXFault : BOOL := FALSE;
+	act_PusherZFault : BOOL := FALSE;
+	act_TurnpusherFault : BOOL := FALSE;
+	act_SlideRailFault : BOOL := FALSE;
+	act_ConveyorIFFault : BOOL := FALSE;
+	act_ConveyorEndFault : BOOL := FALSE;
+	act_PalletConveyor1Fault : BOOL := FALSE;
+	act_ConveyorTurn1Fault : BOOL := FALSE;
+	act_VacuumFault : BOOL := FALSE;
+END_VAR
+(*GenericDevices*)
+VAR
+	Conveyor_if_enable_request : BOOL;
+	Conveyor_if_disable_request : BOOL;
+	Conveyor_turn1_enable_request : BOOL;
+	Conveyor_turn1_disable_request : BOOL;
+	Pusher_enable_request : BOOL;
+	Pusher_disable_request : BOOL;
+	Conveyor_end_enable_request : BOOL;
+	Conveyor_end_disable_request : BOOL;
+	Turnpusher_enable_request : BOOL;
+	Turnpusher_disable_request : BOOL;
+	Vacuum_enable_request : BOOL;
+	Vacuum_disable_request : BOOL;
+	Cartboard_enable_request : BOOL;
+	Cartboard_disable_request : BOOL;
+	SlideRail_enable_request : BOOL;
+	SlideRail_disable_request : BOOL;
+	PusherZ_enable_request : BOOL;
+	PusherZ_disable_request : BOOL;
+	PusherX_enable_request : BOOL;
+	PusherX_disable_request : BOOL;
+	PalletFork_enable_request : BOOL;
+	PalletFork_disable_request : BOOL;
+	PalletConveyor1_enable_request : BOOL;
+	PalletConveyor1_disable_request : BOOL;
+END_VAR
+(*Comunication between PALLET HANDLER and MAIN*)
+VAR
+	StartPallet : BOOL := FALSE; (*if TRUE the pallet handler goes to the idle state, ready to free a pallet*)
+	PalletCounter : INT := 5; (*Number of pallets that are still available before a refill*)
+END_VAR
+(*Comunication between CRANE HANDLER and MAIN*)
+VAR
+	StartCrane : BOOL := FALSE; (*if TRUE the crane handler goes to the idle state, ready to receive the box layer*)
+	CraneCartboardCounter : INT := 28;
+END_VAR
+(*Comunication between FEEDER_HANDLER and MAIN*)
+VAR
+	StartFeeder : BOOL := FALSE;
+	CraneLayerCounter : BOOL := FALSE; (*If TRUE the feeder is working on the second layer*)
+	BoxCounter : INT := 0;
+END_VAR
+(*MAIN*)
+VAR
+	StartMachine : BOOL; (*if TRUE the machine stars*)
+	CraneReady : BOOL; (*if TRUE the crane is ready to receive the boxes*)
+	FeederReady : BOOL; (*if TRUE the 14 boxes are ready to be loaded on the crane*)
+	LoadBoxesOnCrane : BOOL; (*if TRUE the boxes can be loaded on the crane by the feeder*)
+	BoxesOnCrane : BOOL; (*if TRUE the boxes are ready to be held by the crane*)
+	HoldBoxes : BOOL; (*if TRUE boxes are held by the crane*)
+	PalletReady : BOOL; (*if TRUE the pallet is in position*)
+	LoadBoxesOnPallet : BOOL; (*if TRUE the boxes will be loaded on the pallet*)
+	SecondLayer : BOOL; (*if TRUE the feeder has finished the second layer*)
+	BoxesOnPallet : BOOL; (*if TRUE the boxes are on the pallet*)
+	PalletExit_EN : BOOL; (*if TRUE the pallet can move to the next station*)
+	PalletExit_DONE : BOOL; (*if TRUE the pallet has gone to the next station*)
+	SIMConveyorIFFault : BOOL := FALSE;
+	SIMConveyorTurn1Fault : BOOL := FALSE;
+	SIMFeederPusherFault : BOOL := FALSE;
+	SIMConveyorEndFault : BOOL := FALSE;
+	SIMTurnpusherFault : BOOL := FALSE;
+	SIMCarriageFault : BOOL := FALSE;
+	SIMVacuumFault : BOOL := FALSE;
+	SIMSlideRailFault : BOOL := FALSE;
+	SIMPusherZFault : BOOL := FALSE;
+	SIMPusherXFault : BOOL := FALSE;
+	SIMGantryCraneFault : BOOL := FALSE;
+	SIMBoxCraneFault : BOOL := FALSE;
+	SIMPalletForkFault : BOOL := FALSE;
+	SIMPalletConveyor1Fault : BOOL := FALSE;
+	SIMPalletLifterFault : BOOL := FALSE;
+	SIMCartboardFault : BOOL := FALSE;
+	SIMPalletConveyor2Fault : BOOL := FALSE;
+END_VAR
+(**)
+VAR
+	OutOfMaterial : BOOL;
+END_VAR

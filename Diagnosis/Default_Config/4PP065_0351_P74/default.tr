@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tracepoints>
+  <Tracepoint>
+    <Enabled>true</Enabled>
+    <File>Logical/CraneHandler/Cyclic.st</File>
+    <Line>16</Line>
+    <Condition></Condition>
+    <Task>CraneHandl</Task>
+  </Tracepoint>
+  <Tracepoint>
+    <Enabled>true</Enabled>
+    <File>Logical/MAIN_ctrl/Cyclic.st</File>
+    <Line>16</Line>
+    <Condition></Condition>
+    <Task>MAIN_ctrl</Task>
+  </Tracepoint>
+</Tracepoints>

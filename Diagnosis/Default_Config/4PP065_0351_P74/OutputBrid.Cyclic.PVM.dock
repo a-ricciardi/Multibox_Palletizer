@@ -1,0 +1,5 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=OutputBrid 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                          CARTBOARD_TRIG                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                   VACUUM_BOX_CRANE_GRIP                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         

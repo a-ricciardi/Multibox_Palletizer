@@ -1,0 +1,57 @@
+VAR
+	GantryCranePositionRestored : BOOL := FALSE;
+END_VAR
+(*Vacuum*)
+VAR
+	BoxCranePositionReached : BOOL;
+	GantryCranePositionReached : BOOL;
+	StopRequest : BOOL := FALSE;
+	BoxCranePositionRestored : BOOL := FALSE;
+	CheckPosition : ARRAY[0..1] OF BOOL := [2(FALSE)];
+END_VAR
+(*Faults*)
+VAR
+	GD_StatusRequest : ARRAY[0..9] OF BOOL := [10(FALSE)];
+	OldState : CraneState;
+	State : CraneState := C_WaitStart;
+END_VAR
+(*GantryCrane*)
+VAR
+	GantryCrane : GenericAxis;
+END_VAR
+(*BoxCrane*)
+VAR
+	BoxCrane : GenericAxis;
+END_VAR
+(*SlideRail*)
+VAR
+	SlideRail : GenericDevice;
+END_VAR
+(*PusherX*)
+VAR
+	PusherX : GenericDevice;
+END_VAR
+(*PusherZ*)
+VAR
+	PusherZ : GenericDevice;
+END_VAR
+(*Cartboard*)
+VAR
+	Cartboard : GenericDevice;
+	Vacuum : GenericDevice;
+	Enable_Disable_Counter : INT;
+	VacuumDisableTime : INT := 80;
+	PusherZDisableTime : INT := 60;
+	CartboardDisableTime : INT := 60;
+	VacuumEnableTime : INT := 80;
+	SlideRailEnableTime : INT := 60;
+	SlideRailDisableTime : INT := 60;
+	PusherXDisableTime : INT := 60;
+	PusherZEnableTime : INT := 60;
+	CartboardEnableTime : INT := 60;
+	PusherXEnableTime : INT := 60;
+	i : INT := 0;
+	GantryCraneSetPoint : REAL;
+	BoxCraneSetPoint : REAL;
+	OldPosition : ARRAY[0..1] OF REAL;
+END_VAR

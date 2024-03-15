@@ -1,0 +1,52 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=PalletHand 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=194 Type=21 Scope=40 Force=8 Index=20 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                OldState                                     DINT    0 "                                                               9"    0    4    1   10    1    0 e,0,PALL
+
+                                   State                                     DINT    0 "                                                               8"    0    4    1   10    1    0 e,0,PALL
+
+               PALLET_LIGHT_BARRIER_1_IR                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                         PalletConveyor1                            GenericDevice    0 "                                                               *"    0   24    1    0    1    1         
+                         DeviceOperation                                      INT    0 "                                                               1"    1    3    1   10    0    0         
+                              DeviceType                                      INT    0 "                                                              65"    1    3    1   10    0    0         
+                     DeviceEnabledSensor                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                    DeviceDisabledSensor                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                             DeviceClock                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                        DeviceEnableTime                                      INT    0 "                                                              20"    1    3    1   10    0    0         
+                       DeviceDisableTime                                      INT    0 "                                                              20"    1    3    1   10    0    0         
+                DeviceDiagnosticsEnabled                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                      DeviceEnablePreset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                           DeviceEnabled                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                          DeviceDisabled                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                            EnableDevice                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                           DisableDevice                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                DeviceEnabledSensorFault                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+               DeviceDisabledSensorFault                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                     DeviceActuatorFault                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                             DeviceFault                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                    DeviceNotInitialized                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                     DeviceEnableRequest                                    UDINT    0 "                                                       101850205"    1    7    1   10    0    0         
+                    DeviceDisableRequest                                    UDINT    0 "                                                       101850217"    1    7    1   10    0    0         
+                             DeviceState                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,Devi
+
+                             DeviceTimer                                      INT    0 "                                                               0"    1    3    1   10    0    0         
+                           DeviceTimeout                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                    INIT                                      INT    0 "                                                               0"    1    3    1   10    0    0         
+                                     RUN                                      INT    0 "                                                               1"    1    3    1   10    0    0         
+               PALLET_LIGHT_BARRIER_2_IR                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                         PalletConveyor2                              GenericAxis    0 "                                                               *"    0   24    1    0    1    1         
+                                 Command                                     WORD    0 "                                                               0"    1   18    1   10    0    0        b
+                          ActualPosition                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                          ActualVelocity                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                             NewSetPoint                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                             DeviceTimer                                      INT    0 "                                                               *"    1    3    1   10    0    0         
+                              TGT_SENSOR                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Reset                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                          TargetVelocity                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                          TargetPosition                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                              InPosition                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              InVelocity                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                             DeviceFault                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                               AxisState                                     DINT    0 "                                                               *"    1    4    1   10    0    0 e,0,Chec
+
+                                   Timer                                      INT    0 "                                                               *"    1    3    1   10    0    0         

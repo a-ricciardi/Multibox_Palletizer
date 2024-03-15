@@ -1,0 +1,39 @@
+VAR
+	State : PalletState := P_WaitStart;
+END_VAR
+(*PalletFork*)
+VAR
+	PalletFork : GenericDevice;
+	PalletForkEnableTime : INT := 80;
+	PalletForkDisableTime : INT := 80;
+END_VAR
+(*Pallet Lifter*)
+VAR
+	PalletLifter : GenericAxis;
+	PalletLifterPositionReached : BOOL;
+	PalletLifterSetPoint : REAL;
+END_VAR
+(*Pallet Conveyor 1*)
+VAR
+	PalletConveyor1 : GenericDevice;
+	PalletConveyor1EnableTime : INT := 20;
+	PalletConveyor1DisableTime : INT := 20;
+END_VAR
+(*Pallet Conveyor 2*)
+VAR
+	PalletConveyor2 : GenericAxis;
+	PalletConveyor2VelocityReached : BOOL;
+	PalletConveyor2SetPoint : REAL;
+	GD_StatusRequest : ARRAY[0..3] OF BOOL := [4(FALSE)];
+	i : INT;
+	Enable_Disable_Counter : INT;
+	CheckPosition : BOOL := FALSE;
+	OldPosition : REAL;
+	CheckVelocity : BOOL := FALSE;
+	OldVelocity : REAL;
+	PalletLifterPositionRestored : BOOL := FALSE;
+	OldState : PalletState;
+	PalletConveyor2VelocityRestored : BOOL := FALSE;
+	PalletOnConveyor2 : BOOL := FALSE;
+	StopRequest : BOOL := FALSE;
+END_VAR

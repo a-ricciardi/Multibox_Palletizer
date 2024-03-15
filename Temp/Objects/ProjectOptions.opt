@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.10.2.37"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\"
+  TempDirectory="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Temp\"
+  AutomationStudioVersion="4.10.2.37"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="Default_Config"
+  CreateAnsiCDeclarations="false" />

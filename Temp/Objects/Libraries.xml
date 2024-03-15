@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.10.2.37"?>
+<LibraryInfos>
+  <Library
+    Name="Acp10man"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.20.2" />
+  <Library
+    Name="Acp10par"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.20.2" />
+  <Library
+    Name="Acp10sim"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.20.2" />
+  <Library
+    Name="AsArLog"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsBrStr"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsIecCon"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsTCP"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="astime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="brsystem"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="ComTCP_L"
+    IsDeployed="true"
+    IsStatic="true"
+    UseAsStatic="true"
+    Version="" />
+  <Library
+    Name="GenericAx"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="GenericDev"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="MTBasics"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.21.0" />
+  <Library
+    Name="MTTypes"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="1.03.4" />
+  <Library
+    Name="NcGlobal"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.20.2" />
+  <Library
+    Name="operator"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="runtime"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="SignalMng"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="standard"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="sys_lib"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+</LibraryInfos>

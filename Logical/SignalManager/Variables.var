@@ -1,0 +1,59 @@
+VAR CONSTANT
+	Init : INT := 0;
+	Run : INT := 1;
+	StartConfiguration : INT := 2;
+	Configuration : INT := 3;
+	StartGeneration : INT := 4;
+	Generation : INT := 5;
+	Alarm : DINT := 2#0000000000000001;
+	Warning : DINT := 2#0000000000000011;
+	AuxReset : DINT := 2#0000001000000000;
+END_VAR
+(*Message IDs*)
+VAR CONSTANT
+	mTurnpusherFault : INT := 1;
+	mFeederPusherFault : INT := 2;
+	mCranePusherxfault : INT := 3;
+	mCranePusherzfault : INT := 4;
+	mVacuumFault : INT := 5;
+	mPalletforkFault : INT := 6;
+	mPalletsOver : INT := 7;
+	mCarriageFault : INT := 8;
+	mGantryCraneFault : INT := 9;
+	mBoxCraneFault : INT := 10;
+	mPalletLifterFault : INT := 11;
+	mPalletsAlmostOver : INT := 12;
+	mOnPhaseStopRequested : INT := 13;
+	mEmergencyStopRequested : INT := 14;
+	mCartboardAlmostOver : INT := 15;
+	mCartboardOver : INT := 16;
+	mConveyorIfFault : INT := 17;
+	mConveyorTurn1Fault : INT := 18;
+	mConveyorEndFault : INT := 19;
+	mCartboardFault : INT := 20;
+	mSlideRailFault : INT := 21;
+	mPalletConveyor1Fault : INT := 22;
+	mPalletConveyor2Fault : INT := 23;
+END_VAR
+(*Output IDs*)
+VAR CONSTANT
+	EmergencyStopSIG : DWORD := 16#0001;
+	ImmediateStopSIG : DWORD := 16#0002;
+	OnPhaseStopSIG : DWORD := 16#0004;
+	MaterialsRunOut : DWORD := 16#0400;
+END_VAR
+VAR
+	SignalManagement : SignalManager;
+	OnPhaseStopButton : BOOL;
+	EmergencyStopButton : BOOL;
+	OutputSignals : DWORD;
+END_VAR
+(**)
+VAR
+	PalletOver : BOOL;
+	CartboardOver : BOOL;
+	PalletAlmostOver : DWORD := 16#0005;
+	CartboardAlmostOver : DWORD := 16#0006;
+	OneCartboardLeft : BOOL;
+	OnePalletLeft : BOOL;
+END_VAR

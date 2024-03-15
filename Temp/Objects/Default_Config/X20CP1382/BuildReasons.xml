@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID=".mappView_Clean_Build">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferData_Client">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_Media">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferData_PLC">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferIatr_Client">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferIatr_PLC">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_Data">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\brease\iat\build\jsbuild._markerfile">
+    <BuildReason>Target "jsbuild._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\types\area._markerfile">
+    <BuildReason>Target "area._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\transformations_copy._markerfile">
+    <BuildReason>Target "transformations_copy._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\index.html">
+    <BuildReason>Target "index.html" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\favicon.ico">
+    <BuildReason>Target "favicon.ico" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\server\serverdiagnostics._markerfile">
+    <BuildReason>Target "serverdiagnostics._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\brease\iatc\brvisu\brease._markerfile">
+    <BuildReason>Target "brease._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\acp10cfg.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\x20cp1382\motion\acp10cfg.ncc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\widgets\changepassworddialog\meta\changepassworddialog_copied.markerfile">
+    <BuildReason>Target "changepassworddialog_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\iat_media.job._markerfile">
+    <BuildReason>Target "iat_media.job._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\duplicatebindingslistsetsfinder._markerfile">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\duplicatethemesfinder._markerfile">
+    <BuildReason>Target "duplicatethemesfinder._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\duplicatestylessetsfinder._markerfile">
+    <BuildReason>Target "duplicatestylessetsfinder._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\duplicatestylesfinder._markerfile">
+    <BuildReason>Target "duplicatestylesfinder._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\server\vis_0.vis">
+    <BuildReason>Target "vis_0.vis" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\server\config.mappviewcfg">
+    <BuildReason>Target "config.mappviewcfg" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\opcuamap\opcuamap.uar">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\x20cp1382\connectivity\opcua\opcuamap.uad" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\arconfig.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_l\mng_comhdlr.cpp.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\comtcp\comtcp_l\mng_comhdlr.cpp" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_l\mng_cpyouttomsg.cpp.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\comtcp\comtcp_l\mng_cpyouttomsg.cpp" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_l\mng_cpymsgtoinp.cpp.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\comtcp\comtcp_l\mng_cpymsgtoinp.cpp" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\taskmanage\main.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\taskmanager\main.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\archives\default_config\x20cp1382\libcomtcp_l_s.a">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_l\mng_comhdlr.cpp.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_p\main.cpp.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\comtcp\comtcp_p\main.cpp" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\inputbridg\inputbridge.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\inputbridge\inputbridge.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\feeder\feeder.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\feeder\feeder.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\taskmanage\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\taskmanage\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\taskmanage\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\taskmanage\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_p\_bur_pvdef.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_p\main.cpp.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\feeder\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\feeder\feeder.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\feeder\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\feeder\feeder.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\inputbridg\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\inputbridg\inputbridge.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\inputbridg\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\inputbridg\inputbridge.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\sysconf.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\feeder\feeder.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\feeder\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\crane\crane.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\crane\crane.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\pallethand\pallet.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\pallethandler\pallet.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_p\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_p\main.cpp.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\taskmanage\taskmanage.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\taskmanage\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\taskmanage.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\taskmanage\taskmanage.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\pallethand\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\pallethand\pallet.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\pallethand\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\pallethand\pallet.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\inputbridg\inputbridg.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\inputbridg\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\asfw.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\crane\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\crane\crane.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\crane\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\crane\crane.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\pallethand\pallethand.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\pallethand\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\outputbrid\outputbridge.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\outputbridge\outputbridge.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\crane\crane.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\crane\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signal_mng\signalmng.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\signalmanager\signalmng.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_p\comtcp_p.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_p\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\ashwac.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\acp10map.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\x20cp1382\motion\acp10map.ncm" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signal_mng\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signal_mng\signalmng.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signal_mng\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signal_mng\signalmng.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\outputbrid\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\outputbrid\outputbridge.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\outputbrid\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\outputbrid\outputbridge.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\ashwd.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\outputbrid\outputbrid.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\outputbrid\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericdev\genericdevice.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\genericdev\genericdevice.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signal_mng\signal_mng.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signal_mng\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericax\genericaxis.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\genericax\genericaxis.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericax\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericax\genericaxis.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signalmng\signalmanager.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\signalmng\signalmanager.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signalmng\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signalmng\signalmanager.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\acp10sys.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\x20cp1382\motion\acp10sys.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\tcdata\tcdata.imx">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\resources\localizabletexts.tmx" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericax\genericax.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericax\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericax.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericax\genericax.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericdev\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericdev\genericdevice.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signalmng\signalmng.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signalmng\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_p.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\comtcp_p\comtcp_p.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signalmng.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signalmng\signalmng.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\acp10man.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\acp10man\sg4\ia32\acp10man.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\acp10par.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\acp10par\sg4\ia32\acp10par.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\ncglobal.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\ncglobal\sg4\ia32\ncglobal.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\acp10sim.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\acp10sim\sg4\ia32\acp10sim.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\inputbridg.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\inputbridg\inputbridg.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericdev\genericdev.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericdev\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericdev.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\genericdev\genericdev.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\feeder.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\feeder\feeder.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\crane.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\crane\crane.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\pallethand.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\pallethand\pallethand.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\outputbrid.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\outputbrid\outputbrid.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signal_mng.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\signal_mng\signal_mng.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\x20cp1382\iomap.iom" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\tc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\x20cp1382\textsystem\tc.textconfig" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\role.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\x20cp1382\accessandsecurity\userrolesystem\role.role" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\user.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\x20cp1382\accessandsecurity\userrolesystem\user.user" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\fwrules.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\default_config\x20cp1382\accessandsecurity\firewall\rules.firewallrules" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\tcdata\tcdata.s18d">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\tcdata\tcdata.imx" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\tcdata.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\tcdata\tcdata.s18d" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\.mappview_prerequisites._markerfile">
+    <BuildReason>Target ".mappview_prerequisites._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\area_default.scss.css">
+    <BuildReason>Target "area_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\body_default.scss.css">
+    <BuildReason>Target "body_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\changepassworddialog_default.scss.css">
+    <BuildReason>Target "changepassworddialog_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\dialog_default.scss.css">
+    <BuildReason>Target "dialog_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\elementfocus_default.scss.css">
+    <BuildReason>Target "elementfocus_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\focus_default.scss.css">
+    <BuildReason>Target "focus_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\modaldimmer_default.scss.css">
+    <BuildReason>Target "modaldimmer_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\messagebox_default.scss.css">
+    <BuildReason>Target "messagebox_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\page_default.scss.css">
+    <BuildReason>Target "page_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\scrollbar_default.scss.css">
+    <BuildReason>Target "scrollbar_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\selection_default.scss.css">
+    <BuildReason>Target "selection_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\startupprogressbar_default.scss.css">
+    <BuildReason>Target "startupprogressbar_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\tableconfigurationdialog_default.scss.css">
+    <BuildReason>Target "tableconfigurationdialog_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\types\tooltip_default.scss.css">
+    <BuildReason>Target "tooltip_default.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\transformations\eventbinding\parametertypemapping.xml">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\common\busyindicatorhandler\libs\busyindicatorhandler.js._markerfile">
+    <BuildReason>Target "busyindicatorhandler.js._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\widgets\common\keyboards\autosize.js._markerfile">
+    <BuildReason>Target "autosize.js._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\vis_0.json._markerfile">
+    <BuildReason>Target "vis_0.json._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\layout_0.layout._markerfile">
+    <BuildReason>Target "layout_0.layout._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\mappviewfiles.bin_bindinglist_trans._markerfile">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\validateeventbindings._markerfile">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\server\__systemvariables.sessionvar">
+    <BuildReason>Target "__systemvariables.sessionvar" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
+    <BuildReason>Target "grunt.themescsso._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\rectangle\meta\rectangle_copied.markerfile">
+    <BuildReason>Target "rectangle_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\pushbutton\meta\pushbutton_copied.markerfile">
+    <BuildReason>Target "pushbutton_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\button\meta\button_copied.markerfile">
+    <BuildReason>Target "button_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\togglebutton\meta\togglebutton_copied.markerfile">
+    <BuildReason>Target "togglebutton_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\label\meta\label_copied.markerfile">
+    <BuildReason>Target "label_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\numericinput\meta\numericinput_copied.markerfile">
+    <BuildReason>Target "numericinput_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\line\meta\line_copied.markerfile">
+    <BuildReason>Target "line_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\textoutput\meta\textoutput_copied.markerfile">
+    <BuildReason>Target "textoutput_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\ellipse\meta\ellipse_copied.markerfile">
+    <BuildReason>Target "ellipse_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\numericoutput\meta\numericoutput_copied.markerfile">
+    <BuildReason>Target "numericoutput_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\messagebox\meta\messagebox_copied.markerfile">
+    <BuildReason>Target "messagebox_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\window\meta\window_copied.markerfile">
+    <BuildReason>Target "window_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\dialogwindow\meta\dialogwindow_copied.markerfile">
+    <BuildReason>Target "dialogwindow_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\meta\numpad_copied.markerfile">
+    <BuildReason>Target "numpad_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\keyboard\meta\keyboard_copied.markerfile">
+    <BuildReason>Target "keyboard_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\datetimepicker\meta\datetimepicker_copied.markerfile">
+    <BuildReason>Target "datetimepicker_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\contents\mappview\content_0._markerfile">
+    <BuildReason>Target "content_0._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\textinput\meta\textinput_copied.markerfile">
+    <BuildReason>Target "textinput_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\widgets\brease\password\meta\password_copied.markerfile">
+    <BuildReason>Target "password_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\.mappview_widgetsfinished._markerfile">
+    <BuildReason>Target ".mappview_widgetsfinished._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\validatebindings._markerfile">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\mappviewfiles.bin_binding_trans._markerfile">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\grunt.breaserelease._markerfile">
+    <BuildReason>Target "grunt.breaserelease._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\duplicatebindingsfinder._markerfile">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\page_0.page._markerfile">
+    <BuildReason>Target "page_0.page._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_0.scss.css">
+    <BuildReason>Target "content_0.scss.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\brvisu\css\brease_core.css">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\vis_0.json">
+    <BuildReason>Target "vis_0.json" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
+    <BuildReason>Target "grunt.breasecsso._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Build">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_FullBuild">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\default_config\x20cp1382\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\default_config\x20cp1382\ashwac.br" differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

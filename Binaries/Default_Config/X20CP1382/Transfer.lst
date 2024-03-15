@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Transfer xmlns="http://br-automation.co.at/AS/Transfer">
+  <OperatingSystem Version="A4.83"/>
+  <Hardware Target="SG4"/>
+  <Operation Delete="Signal_mng.br"/>
+  <Operation Delete="OutputBrid.br"/>
+  <Operation Delete="PalletHand.br"/>
+  <Operation Delete="Crane.br"/>
+  <Operation Delete="Feeder.br"/>
+  <Operation Delete="InputBridg.br"/>
+  <Operation Delete="ComTCP_P.br"/>
+  <Operation Delete="TaskManage.br"/>
+  <Operation Delete="AsArLog.br"/>
+  <Operation Delete="mvLoader.br"/>
+  <Operation Delete="SignalMng.br"/>
+  <Operation Delete="GenericAx.br"/>
+  <Operation Delete="GenericDev.br"/>
+  <Operation Delete="AsTCP.br"/>
+  <Operation Delete="asieccon.br"/>
+  <Operation Delete="arssl.br"/>
+  <Operation Delete="Acp10sim.br"/>
+  <Operation Delete="Acp10man.br"/>
+  <Operation Delete="fileio.br"/>
+  <Operation Delete="astime.br"/>
+  <Operation Download="asfw.br" Memory="SystemROM"/>
+  <Operation Download="ashwd.br" Memory="SystemROM"/>
+  <Operation Download="arconfig.br" Memory="SystemROM"/>
+  <Operation Download="sysconf.br" Memory="SystemROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="acp10cfg.br" Memory="UserROM"/>
+  <Operation Download="Acp10map.br" Memory="UserROM"/>
+  <Operation Download="NcGlobal.br" Memory="UserROM"/>
+  <Operation Download="powerlnk.br" Memory="UserROM"/>
+  <Operation Download="Acp10par.br" Memory="UserROM"/>
+  <Operation Download="runtime.br" Memory="UserROM"/>
+  <Operation Download="astime.br" Memory="UserROM"/>
+  <Operation Download="fileio.br" Memory="UserROM"/>
+  <Operation Download="Acp10man.br" Memory="UserROM"/>
+  <Operation Download="Acp10sim.br" Memory="UserROM"/>
+  <Operation Download="Acp10sys.br" Memory="UserROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="arssl.br" Memory="UserROM"/>
+  <Operation Download="asieccon.br" Memory="UserROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
+  <Operation Download="AsTCP.br" Memory="UserROM"/>
+  <Operation Download="AsBrStr.br" Memory="UserROM"/>
+  <Operation Download="GenericDev.br" Memory="UserROM"/>
+  <Operation Download="GenericAx.br" Memory="UserROM"/>
+  <Operation Download="SignalMng.br" Memory="UserROM"/>
+  <Operation Download="udbdef.br" Memory="UserROM"/>
+  <Operation Download="FWRules.br" Memory="UserROM"/>
+  <Operation Download="TCData.br" Memory="SystemROM"/>
+  <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="User.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="ashwac.br" Memory="UserROM"/>
+  <Operation Download="mvLoader.br" Memory="UserROM"/>
+  <Operation Download="operator.br" Memory="UserROM"/>
+  <Operation Download="AsArLog.br" Memory="UserROM"/>
+  <Operation Download="TC.br" Memory="UserROM"/>
+  <Operation Download="TaskManage.br" Memory="UserROM"/>
+  <Operation Download="ComTCP_P.br" Memory="UserROM"/>
+  <Operation Download="InputBridg.br" Memory="UserROM"/>
+  <Operation Download="Feeder.br" Memory="UserROM"/>
+  <Operation Download="Crane.br" Memory="UserROM"/>
+  <Operation Download="PalletHand.br" Memory="UserROM"/>
+  <Operation Download="OutputBrid.br" Memory="UserROM"/>
+  <Operation Download="Signal_mng.br" Memory="UserROM"/>
+</Transfer>

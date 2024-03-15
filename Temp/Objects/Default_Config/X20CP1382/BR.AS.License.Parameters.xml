@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=*</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>D:\Downloads\ASDP Exam - Group 4B\Palletizer\Palletizer.apj</ApjFullFileName>
+    <ProjectName>Palletizer</ProjectName>
+    <ActiveConfigurationName>Default_Config</ActiveConfigurationName>
+    <LicenseDataFolder>D:\Downloads\ASDP Exam - Group 4B\Palletizer\Temp\Objects\Default_Config\X20CP1382</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

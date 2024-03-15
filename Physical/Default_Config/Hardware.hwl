@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Default_Config.Hardware.hw" LastWriteTime="06/18/2023 15:57:05" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP1382" Type="X20CP1382" X="328" Y="215" />
+    <Module Name="X3" Type="X3" X="479" Y="218" />
+    <Module Name="X20TB1F2" Type="X20TB1F" X="479" Y="241" />
+    <Module Name="X2" Type="X2" X="466" Y="218" />
+    <Module Name="X20TB1F1" Type="X20TB1F" X="466" Y="241" />
+    <Module Name="X1" Type="X1" X="453" Y="218" />
+    <Module Name="X20TB1F" Type="X20TB1F" X="453" Y="241" />
+  </Modules>
+  <Links />
+  <InfoElements />
+</BR.AS.HardwareTopology>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.5.113 SP?>
+<Library xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>MNG_InternalTyp.hpp</File>
+    <File>MNG_ComHdlr.hpp</File>
+    <File>MNG_ComHdlr.cpp</File>
+    <File>MNG_Global.hpp</File>
+    <File>MNG_CpyOutToMsg.cpp</File>
+    <File>MNG_CpyMsgToInp.cpp</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsTCP" />
+    <Dependency ObjectName="operator" />
+    <Dependency ObjectName="runtime" />
+    <Dependency ObjectName="astime" />
+    <Dependency ObjectName="standard" />
+    <Dependency ObjectName="AsArLog" />
+    <Dependency ObjectName="AsBrStr" />
+    <Dependency ObjectName="Convert" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.10.2.37"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="TaskManage"
+      Disable="false"
+      Source="TaskManager"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Temp\Objects\Default_Config\X20CP1382\TaskManage\Main.st.var" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\TaskManager\Types.typ" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\TaskManager\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="ComTCP_P"
+      Disable="false"
+      Source="Libraries.ComTCP.ComTCP_P"
+      Language="ANSIC">
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\Libraries\ComTCP\ComTCP_P\Types.typ" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\Libraries\ComTCP\ComTCP_P\Variables.var" />
+    </Task>
+    <Task
+      Name="InputBridg"
+      Disable="false"
+      Source="InputBridge"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Temp\Objects\Default_Config\X20CP1382\InputBridg\InputBridge.st.var" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\InputBridge\Types.typ" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\InputBridge\Variables.var" />
+    </Task>
+    <Task
+      Name="Feeder"
+      Disable="false"
+      Source="Feeder"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Temp\Objects\Default_Config\X20CP1382\Feeder\Feeder.st.var" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\Feeder\Types.typ" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\Feeder\Variables.var" />
+    </Task>
+    <Task
+      Name="Crane"
+      Disable="false"
+      Source="Crane"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Temp\Objects\Default_Config\X20CP1382\Crane\Crane.st.var" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\Crane\Types.typ" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\Crane\Variables.var" />
+    </Task>
+    <Task
+      Name="PalletHand"
+      Disable="false"
+      Source="PalletHandler"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Temp\Objects\Default_Config\X20CP1382\PalletHand\Pallet.st.var" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\PalletHandler\Types.typ" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\PalletHandler\Variables.var" />
+    </Task>
+    <Task
+      Name="OutputBrid"
+      Disable="false"
+      Source="OutputBridge"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Temp\Objects\Default_Config\X20CP1382\OutputBrid\OutputBridge.st.var" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\OutputBridge\Types.typ" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\OutputBridge\Variables.var" />
+    </Task>
+    <Task
+      Name="Signal_mng"
+      Disable="false"
+      Source="SignalManager"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Temp\Objects\Default_Config\X20CP1382\Signal_mng\SignalMng.st.var" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\SignalManager\Types.typ" />
+      <File
+        Path="D:\Downloads\ASDP Exam - Group 4B\Palletizer\Logical\SignalManager\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4" />
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>
